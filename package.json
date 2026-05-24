@@ -1,0 +1,12 @@
+{
+  "name": "base-smart-wallet-passkeys",
+  "version": "1.0.0",
+  "description": "ERC-4337 Smart Wallet orchestration via WebAuthn Passkeys",
+  "main": "passkeyAuth.js",
+  "dependencies": {
+    "ethers": "^6.13.0",
+    "@simplewebauthn/server": "^9.0.3",
+    "permissionless": "^0.1.2",
+    "dotenv": "^16.4.5"
+  }
+}
